@@ -56,7 +56,7 @@
 <preference platform="ios" name="Fullscreen" value="ture"/>
 
 <preference name="FadeSplashScreenDuration" value="0"/>
-<preference name="SplashScreenDelay" value="2000" />
+<preference name="SplashScreenDelay" value="1000" />
 
 
 <plugin name="cordova-plugin-splashscreen" spec="~4.0.3" />

@@ -36,7 +36,7 @@ html{
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'MBK CorpoS', 'MBK CorporateA Con'sans-serif;
+	font-family:'MBK CorporateA Con';
 	font-weight: 400;
 	font-size: 12px;
 	color: #000;
@@ -112,7 +112,7 @@ h6 {
 h7 {
 	font-size: 2em;
 	font-weight: 200;
-	font-family: 'MBK CorpoS', 'MBK CorporateA Con'sans-serif;
+	font-family: 'MBK CorporateA Con';
 	color: #000;
 	height:100%;
 	
@@ -121,7 +121,7 @@ h7 {
 h8 {
 	font-size: 25px;
 	font-weight: 200;
-	font-family: 'MBK CorpoS', 'MBK CorporateA Con'sans-serif;
+	font-family: 'MBK CorporateA Con';
 	color: #000;
 	height: 100%;
 	letter-spacing: -0.005em;
@@ -1190,7 +1190,7 @@ a.link-content {
 }
 .right-colum h2 {
 	float: left;
-	font-family: "MBK CorpoS", "MBK CorporateA Con";
+	font-family: "MBK CorporateA Con";
 	font-weight: 400;
 	letter-spacing: 4px;
 	text-transform: uppercase;
@@ -2119,7 +2119,7 @@ article:hover .overlay{
 	width: 100%;
 	font-size: 34px;
 	text-transform: uppercase;
-	font-family: "MBK CorpoS", "MBK CorporateA Con";
+	font-family:  "MBK CorporateA Con";
 }
 .ajaxPageSwitchBacklink {
 	display: inline-block;
@@ -2128,7 +2128,7 @@ article:hover .overlay{
 	color: #000;
 	position: relative;
 	top: 30%;
-	font-family: "MBK CorpoS", "MBK CorporateA Con";
+	font-family: "MBK CorporateA Con";
 }
 .ajaxPageSwitchBacklink:before {
 	content:'';
