@@ -53,8 +53,12 @@
 <preference name="DisallowOverscroll" value="true"/>
 <preference platform="ios" name="Fullscreen" value="ture"/>
 
+<<<<<<< HEAD
 <preference name="FadeSplashScreenDuration" value="0"/>
 <preference name="SplashScreenDelay" value="10000" />
+=======
+<preference name="FadeSplashScreenDuration" value="10000"/>
+>>>>>>> 3be8d1f29684d3508fee7558122e8e7eefc1aded
 
 
 <plugin name="cordova-plugin-splashscreen" spec="~4.0.3" />
