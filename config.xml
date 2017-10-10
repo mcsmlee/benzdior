@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.cnbox.benzdior" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>She's Mercedes</name>
+    <description>
+        CNBOX SETTING
+    </description>
+    <author email="mcsmlee@cnbox.kr" href="http://cnboxvr.com">
+        CNBOX LEE
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <preference name="EnableViewportScale" value="true"/>
+
+    <icon src="logo.png" platform="ios" width="152" height="152" density="mdpi" />
+    <icon src="logo.png" platform="ios" width="57" height="57" />
+     <icon src="res/icon.png" />
+
+    
+    
+    
+<preference name="Orientation" value="landscape" />
+
+<preference name="AllowInlineMediaPlayback" value="false" />
+
+
+<preference name="DisallowOverscroll" value="true"/>
+<preference platform="ios" name="Fullscreen" value="ture"/>
+
+<preference name="FadeSplashScreenDuration" value="0"/>
+
+
+<plugin name="cordova-plugin-splashscreen" spec="~4.0.3" />
+
+</widget>

@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!--=============== basic  ===============-->
+        <meta charset="UTF-8">
+        <title>Mercedes Dior</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="robots" content="index, follow"/>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <!--=============== css  ===============-->	
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+        <link rel="stylesheet" href="css/magnific-popup.css" media="all">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link type="text/css" rel="stylesheet" href="css/color.css">
+        <!--=============== favicons ===============-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <!--================= main start ================-->
+        <div id="main">
+            <!--=============== header ===============-->	
+            <div class="header">
+                <div class="call-menu">
+                    <div class="btn-menu-wrapper">
+                        <div id="btn-menu">
+                            <span class="icon-container">
+                            <span class="line line01"></span>
+                            <span class="line line02"></span>
+                            <span class="line line03"></span>
+                            <span class="line line04"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <span class="menutext">menu</span>
+                </div>
+                <div class="logo-holder">
+                    <h8><a href="index.html" ></a></h8>
+                </div>
+            </div>
+            <!--=============== navigation ===============-->	
+            <div class="nav-holder isDown">
+                <div class="menu-holder">
+                    <div id="menu">
+                        <ul>
+                            <li>
+								<a href="index.html"><h8>Main</h8></a>
+                            </li>
+                            <li>
+								<a href="Mercedes.html" ><h8>She's Mercedes</h8></a>
+                            </li>
+                            <li>
+								<a href="Stories.html" ><h8>She's Stories</h8></a>
+                            </li>
+                            <li>
+								<a href="Quiz.html" ><h8>She's Mercedes Quiz</h8></a>
+                            </li>
+ 
+                                    
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!--=============== wrapper ===============-->
+            <div id="wrapper">
+                <div class="content-holder elem scale-bg2 transition3" >
+                    <div class="header-overlay"></div>
+
+                    <div class="content full-height">
+                        <div class="swiper-container" id="horizontal-slider">
+                            <div class="swiper-wrapper">
+                                <!--=============== 1 ===============-->	
+                                <div class="swiper-slide bg" style="background-image:url(images/page/quiz/1.jpg)">
+
+                                </div>
+     
+                                <!--=============== 2 ===============-->	
+                                <div class="swiper-slide bg" style="background-image:url(images/page/quiz/2.jpg)">
+                                <div class="swiper-nav-holder hor">
+								<a class="grid-2 left" href="Quiz1.html"><h7>1. She's Mercedes</h7></a>
+								<a class="grid-2 left" href="#" id="correct"><h7>2. She's Network</h7></a>
+								<br/><br/>
+								<a class="grid-2 left" href="#"><h7>3. She's Party</h7></a>
+                                <a class="grid-2 left" href="#"><h7>4. She's Club</h7></a>
+                            </div>
+                                
+                                </div>
+
+
+
+                                
+
+
+
+                            </div>
+
+                        </div>
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- wrapper end -->
+            <!--=============== Quick view  ===============-->	
+        </div>
+        <!-- Main end -->
+        <!--=============== footer  ===============-->	
+        <footer>
+
+		</footer>
+		<style>
+		.modal {
+			display: none; /* Hidden by default */
+			position: fixed; /* Stay in place */
+			z-index: 10; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			overflow: auto; /* Enable scroll if needed */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		}
+
+		/* Modal Content/Box */
+		.modal-content {
+			background-color: #fefefe;
+			margin: 15% auto; /* 15% from the top and centered */
+			padding: 20px;
+			border: 1px solid #888;
+			width: 80%; /* Could be more or less, depending on screen size */
+		}
+
+		/* The Close Button */
+		.close {
+			color: #aaa;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+		}
+
+		.close:hover,
+		.close:focus {
+			color: black;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		</style>
+		<!-- 모달 -->
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<img class="wrong" src="images/close.png" width="10%" >
+			</div>
+
+		</div>
+        <!--=============== scripts  ===============-->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jpreloader.min.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/core.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script>
+	
+			var modal = document.getElementById('myModal');
+			var btn = document.getElementById("correct");
+
+			// Get the <span> element that closes the modal
+			var wrong = document.getElementsByClassName("wrong")[0];
+
+			// When the user clicks on the button, open the modal 
+			btn.onclick = function() {
+				modal.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			wrong.onclick = function() {
+				modal.style.display = "none";
+			}
+		
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+        </script>
+    </body>
+</html>
