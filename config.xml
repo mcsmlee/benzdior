@@ -12,9 +12,35 @@
 
     <preference name="EnableViewportScale" value="true"/>
 
-    <icon src="logo.png" platform="ios" width="152" height="152" density="mdpi" />
+ <!--   <icon src="logo.png" platform="ios" width="152" height="152" density="mdpi" />
     <icon src="logo.png" platform="ios" width="57" height="57" />
-     <icon src="res/icon.png" />
+   <icon src="logo.png" /> -->
+    
+    
+    <platform name="ios">
+
+              <!-- iPad -->
+              <icon src="images/76logo.png" width="76" height="76" />
+              <icon src="images/152logo.png" width="152" height="152" />
+              <!-- Spotlight Icon -->
+              <icon src="images/40logo.png" width="40" height="40" />
+              <icon src="images/80logo.png" width="80" height="80" />
+
+              <!-- iPad -->
+              <icon src="images/72logo.png" width="72" height="72" />
+              <icon src="images/144logo.png" width="144" height="144" />
+
+              <!-- iPad Spotlight and Settings Icon -->
+              <icon src="images/50logo.png" width="50" height="50" />
+              <icon src="images/100logo.png" width="100" height="100" />
+              
+              
+              
+              <splash src="white.png" width="2048" height="1536"/>
+              <splash src="white.png"/>
+     </platform>
+
+    
 
     
     
@@ -28,6 +54,7 @@
 <preference platform="ios" name="Fullscreen" value="ture"/>
 
 <preference name="FadeSplashScreenDuration" value="0"/>
+<preference name="SplashScreenDelay" value="10000" />
 
 
 <plugin name="cordova-plugin-splashscreen" spec="~4.0.3" />
