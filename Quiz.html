@@ -15,8 +15,8 @@
         <link rel="stylesheet" href="css/magnific-popup.css" media="all">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/color.css">
-        <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/css.css">
+
     </head>
     <body>
         <!--================= main start ================-->
@@ -79,82 +79,57 @@
      
                                 <!--=============== 2 ===============-->	
                                 <div class="swiper-slide bg" style="background-image:url(images/page/quiz/2.jpg)">
-                                <div class="swiper-nav-holder hor">
+                                <div class="swiper-nav-holder">
 								<a class="grid-2 left" href="Quiz1.html"><h7>1. She's Mercedes</h7></a>
-								<a class="grid-2 left" href="#" id="correct"><h7>2. She's Network</h7></a>
+								<a class="grid-2 left" href="#" id="correct" ><h7>2. She's Network</h7></a>
 								<br/><br/>
-								<a class="grid-2 left" href="#"><h7>3. She's Party</h7></a>
-                                <a class="grid-2 left" href="#"><h7>4. She's Club</h7></a>
+								<a class="grid-2 left" href="#" ><h7>3. She's Party</h7></a>
+                                <a class="grid-2 left" href="#" ><h7>4. She's Club</h7></a>
                             </div>
                                 
                                 </div>
-
-
-
-                                
-
-
-
-                            </div>
+</div>
+                            
+        
+    
+      
 
                         </div>
                         <div class="pagination"></div>
                     </div>
                 </div>
             </div>
-            <!-- wrapper end -->
-            <!--=============== Quick view  ===============-->	
+
         </div>
         <!-- Main end -->
         <!--=============== footer  ===============-->	
         <footer>
 
 		</footer>
+		
 		<style>
 		.modal {
 			display: none; /* Hidden by default */
 			position: fixed; /* Stay in place */
 			z-index: 10; /* Sit on top */
-			left: 0;
-			top: 0;
-			width: 100%; /* Full width */
-			height: 100%; /* Full height */
-			overflow: auto; /* Enable scroll if needed */
+			left: 50%;
+			top: 65%;
+			width: 8%; /* Full width */
+			height: 8%; /* Full height */
 			background-color: rgb(0,0,0); /* Fallback color */
-			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-		}
+			background-color: rgba(0,0,0,0.00); /* Black w/ opacity */
 
-		/* Modal Content/Box */
-		.modal-content {
-			background-color: #fefefe;
-			margin: 15% auto; /* 15% from the top and centered */
-			padding: 20px;
-			border: 1px solid #888;
-			width: 80%; /* Could be more or less, depending on screen size */
-		}
-
-		/* The Close Button */
-		.close {
-			color: #aaa;
-			float: right;
-			font-size: 28px;
-			font-weight: bold;
-		}
-
-		.close:hover,
-		.close:focus {
-			color: black;
-			text-decoration: none;
-			cursor: pointer;
-		}
+}
 		</style>
 		<!-- 모달 -->
-		<div id="myModal" class="modal">
-			<div class="modal-content">
-				<img class="wrong" src="images/close.png" width="10%" >
+		<div id="MyModal" class="modal">
+			<div class="modal-content" >
+				<img class="wrong circle fade" src="images/close.png" >
 			</div>
 
 		</div>
+
+
         <!--=============== scripts  ===============-->
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/jpreloader.min.js"></script>
@@ -162,9 +137,10 @@
         <script type="text/javascript" src="js/core.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
-        <script>
-	
-			var modal = document.getElementById('myModal');
+
+<script>
+			var modal = document.getElementById('MyModal');
+
 			var btn = document.getElementById("correct");
 
 			// Get the <span> element that closes the modal
@@ -179,13 +155,12 @@
 			wrong.onclick = function() {
 				modal.style.display = "none";
 			}
-		
-			// When the user clicks anywhere outside of the modal, close it
-			window.onclick = function(event) {
-				if (event.target == modal) {
-					modal.style.display = "none";
-				}
-			}
-        </script>
+
+
+</script>
+    
+    
+
+
     </body>
 </html>

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.circle{
+  border-radius:0%;
+  -webkit-transform:scale(0.5);
+  -ms-transform:scale(0.5);
+  transform:scale(0.5);
+  -webkit-transition:.5s;
+  transition:.5s;
+	
+	
+
+}
+
+
+
+@keyframes fadekey {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.fade {
+  animation-name: fadekey;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+
+
+
+.circle:hover{
+  -webkit-transform:scale(0.3);
+  -ms-transform:scale(0.3);
+  transform:scale(0.3);
+	
+}
+

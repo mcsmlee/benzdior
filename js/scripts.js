@@ -651,17 +651,33 @@ function readyFunctions() {
 
 
 
-$('.test-popup-link').magnificPopup({
-  type: 'image'
-  // other options
-});
 
-
-$('.open-popup-link').magnificPopup({
-  type:'inline',
-  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-});
-
-$('.ajax-popup-link').magnificPopup({
-  type: 'ajax'
+$(function(){ 
+  $('.btn').on('click',function(){
+    $('.popup').css({
+      'transform':'translateY(0)',
+      'z-index':'999'
+    });
+    
+    $('body').addClass('overlay');
+    
+    $('.popup h1').animate({
+      left:'0'
+    },1000);
+    
+    $(this).css({
+      'z-index':'-1'
+    });
+    
+    $('.popup > .close').on('click',function(){
+      $(this).parent().css({
+      'transform':'translateY(-300%)'
+     });
+     
+      $('body').removeClass('overlay');
+      $(this).parent().siblings('.btn').css({
+        'z-index':'1'
+      });
+    });
+  });
 });
