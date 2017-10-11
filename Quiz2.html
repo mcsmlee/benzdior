@@ -15,8 +15,7 @@
         <link rel="stylesheet" href="css/magnific-popup.css" media="all">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/color.css">
-        <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/css.css">
     </head>
     <body>
         <!--================= main start ================-->
@@ -77,15 +76,15 @@
                                 <!--=============== 4 ===============-->	
                                 <div class="swiper-slide bg " style="background-image:url(images/page/quiz/4.jpg)">
                                                                 
-                                <div class="swiper-nav-holder hor">
+                                <div class="swiper-nav-holder">
 
 
                                                                 
-								<a class="grid-2 left" href="#"><h7>1. C-Class</h7></a>
+								<a class="grid-2 left" href="#" id="wrongAnswer"><h7>1. C-Class</h7></a>
 								<a class="grid-2 left" href="Quiz3.html"><h7>2. CLA</h7></a>
 								<br/><br/>
-								<a class="grid-2 left" href="#"><h7>3. GLC</h7></a>
-                                <a class="grid-2 left" href="#"><h7>4. E-Class</h7></a>
+								<a class="grid-2 left" href="#" id="wrongAnswer"><h7>3. GLC</h7></a>
+                                <a class="grid-2 left" href="#" id="wrongAnswer"><h7>4. E-Class</h7></a>
 
 
 </div>
@@ -109,19 +108,26 @@
             </div>
             <!-- wrapper end -->
             <!--=============== Quick view  ===============-->	
-        </div>
+
         <!-- Main end -->
         <!--=============== footer  ===============-->	
         <footer>
 
 		</footer>
+<!-- 모달 -->
+		<div id="MyModal" class="modal">
+			<div class="modal-content" >
+				<img class="close circle fade" src="images/close.png" >
+			</div>
 
+		</div>
         <!--=============== scripts  ===============-->
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/jpreloader.min.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/core.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="js/quiz.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         
     </body>

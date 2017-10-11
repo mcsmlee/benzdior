@@ -2436,3 +2436,15 @@ video#bgvid {
 }
 .stopfade { opacity: .5; }
 
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 10; /* Sit on top */
+	left: 47%;
+	top: 65%;
+	width: 8%; /* Full width */
+	height: 8%; /* Full height */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.00); /* Black w/ opacity */
+
+}
