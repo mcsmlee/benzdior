@@ -39,8 +39,8 @@ body{
 	font-family:'MBK CorporateA Con';
 	font-weight: 400;
 	font-size: 12px;
-	color: #000;
-	background:#fff;
+	color: #fff;
+	background:#000;
 	height:100%;
 	text-align:center;
 }
@@ -113,8 +113,8 @@ h7 {
 	font-size: 2em;
 	font-weight: 200;
 	font-family: 'MBK CorporateA Con';
-	color: #000;
-	height:100%;
+	color: #fff;
+	height: 100%;
 	
 }
 
@@ -177,15 +177,15 @@ h8 {
 	z-index:2;
 }
 #wrapper{
-	height:100%; 
-	margin-left:0;
-	vertical-align:top; 
-	position: absolute; 
-	left:0; 
-	top:0; 
-	right:0;
-	z-index:2;
-	background:#fff;
+	height: 100%;
+	margin-left: 0;
+	vertical-align: top;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	background: #000;
 }
 .content-holder{
 	vertical-align: top;
@@ -204,12 +204,12 @@ h8 {
 	z-index:2;
 }
 .content {
-	float:left;
-	width:100%;
-	position:relative;
-	z-index:2;
-	padding:80px 50px 50px;
-	background:#fff;
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+	padding: 80px 50px 50px;
+	background: #000;
 }
 .full-height {
 	height:100%;
@@ -245,13 +245,13 @@ h8 {
 	opacity:0.5;
 }
 .header-overlay {
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	background:rgba(255,255,255,0.51);
-	z-index:10;
-	height:80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(255,255,255,0.0);
+	z-index: 10;
+	height: 80px;
 	-webkit-transform: translateZ(0);
 } 
 .loader {
@@ -322,19 +322,19 @@ section {
 	position:relative;
 }
 #btn-menu .line{
-	position:absolute;
-	width:29px;
-	height:4px ;
-	left:3px;
-	background:#666;
-	-webkit-transition:all 300ms cubic-bezier(0.215,.61,.355,1); 
-	-moz-transition:all 300ms cubic-bezier(0.215,.61,.355,1);
-	-o-transition:all 300ms cubic-bezier(0.215,.61,.355,1);
-	transition:all 300ms cubic-bezier(0.215,.61,.355,1);
-	-webkit-transform:translate3d(0,0,0);
-	-moz-transform:translate3d(0,0,0);
-	-o-transform:translate3d(0,0,0);
-	transform:translate3d(0,0,0)
+	position: absolute;
+	width: 29px;
+	height: 4px;
+	left: 3px;
+	background: #fff;
+	-webkit-transition: all 300ms cubic-bezier(0.215,.61,.355,1);
+	-moz-transition: all 300ms cubic-bezier(0.215,.61,.355,1);
+	-o-transition: all 300ms cubic-bezier(0.215,.61,.355,1);
+	transition: all 300ms cubic-bezier(0.215,.61,.355,1);
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0)
 }
 #btn-menu .line01{
 	top:0;
