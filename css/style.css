@@ -1272,11 +1272,8 @@ a.link-content {
 } 
 .swiper-slide .inner {
 	height: 100%;
-	position:relative;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	overflow:hidden;
+	position: relative;
+	overflow: hidden;
 }
 .inner img {
 	position:relative;
@@ -1395,7 +1392,7 @@ footer {
 	line-height:50px;
 	text-align:left;
 	padding-left:50px;
-	background:rgba(255,255,255,0.51);
+	background:rgba(255,255,255,0);
 }
 footer p {
 	font-size:10px;
